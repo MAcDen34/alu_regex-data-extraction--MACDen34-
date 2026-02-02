@@ -1,0 +1,102 @@
+{
+  "extracted_data": {
+    "emails": [
+      "s************@techsupport.com",
+      "m***********@gmail.com",
+      "j***************@corporate-solutions.co.uk",
+      "s******@techsupport.com",
+      "a****@techsupport.com",
+      "s*****************@email-provider.com",
+      "m*****@work-email.com",
+      "f************@email.net",
+      "j*********@techsupport.com",
+      "e**********@techsupport.com",
+      "c*********@company-name.org",
+      "i***@sub.domain.com"
+    ],
+    "urls": [
+      "https://www.techsupport.com/checkout",
+      "https://support.techsupport.com/help",
+      "https://techsupport.com/products/premium-plan.",
+      "https://m.techsupport.com",
+      "https://www.techsupport.com/products/premium-plan",
+      "https://twitter.com/techsupport",
+      "https://blog.techsupport.com/updates/2025/january.",
+      "https://www.datasecure.com/solutions",
+      "https://cloudhost.pro/pricing",
+      "https://dev-tools.express.io/api/docs",
+      "https://www.techsupport.com",
+      "https://support.techsupport.com",
+      "https://api.techsupport.com/v2/docs",
+      "https://app.techsupport.com/download",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    ],
+    "phones": [
+      "(555) 123-4567",
+      "555-987-6543",
+      "(212) 555-0199",
+      "(800) 555-0123",
+      "(555) 987-6543",
+      "212-555-0199",
+      "555.123.4567",
+      "(555) 100-2001",
+      "555-100-2002",
+      "(555) 100-2003",
+      "+1-555-123-4567",
+      "0123456789"
+    ],
+    "credit_cards": [
+      "****-******-*0005",
+      "**** **** **** 6467",
+      "**** **** **** 1881",
+      "**** **** **** 4444",
+      "**** **** **** 9424",
+      "**** ****** *8431"
+    ],
+    "times": [
+      "9:45 AM",
+      "09:45",
+      "2:30 PM",
+      "09:46",
+      "09:47",
+      "09:48",
+      "14:30",
+      "14:35",
+      "3:45 PM",
+      "4:15 PM",
+      "9:00 AM",
+      "5:00 PM",
+      "10:00 AM",
+      "2:00 PM",
+      "09:30",
+      "12:00 PM",
+      "7:45 PM"
+    ]
+  },
+  "security_threats": {
+    "sql_injection": [
+      "'re right. The $1,234.56 was from",
+      "; DROP TABLE",
+      "; DELETE FROM accounts WHERE",
+      "'xss')</script>, '; DROP TABLE"
+    ],
+    "xss_attempts": [
+      "<script",
+      "<script",
+      "document.",
+      "onerror=",
+      "<script",
+      "javascript:",
+      "<script"
+    ],
+    "path_traversal": [
+      "../",
+      "../",
+      "../"
+    ]
+  },
+  "summary": {
+    "total_patterns_found": 62,
+    "threats_detected": 14
+  }
+}
